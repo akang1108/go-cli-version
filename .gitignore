@@ -1,0 +1,22 @@
+# Custom
+/go-cli-version*
+
+# GO
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# IDE
+*.iml
+.idea/
+.vscode/
+
+# Mac
+.DS_Store
+
+
