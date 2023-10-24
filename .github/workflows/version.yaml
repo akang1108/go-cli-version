@@ -52,6 +52,6 @@ jobs:
 
       - name: Use the version
         run: |
-          echo major ${{ steps.version.outputs.major }}
-          echo version ${{ steps.version.outputs.version }}
-          echo previous_version ${{ steps.version.outputs.previous_version }}
+          echo ${{ steps.version.outputs.major }}
+          echo ${{ steps.version.outputs.version }}
+          echo ${{ steps.version.outputs.previous_version }}
